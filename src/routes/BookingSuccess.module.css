@@ -1,0 +1,55 @@
+.Main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Summary {
+  padding: 1.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  max-width: 540px;
+  width: 100%;
+}
+
+.Seats {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+}
+
+.SelectedSeat {
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0.5rem 0;
+}
+
+.SelectedSeat h3 {
+  font-size: 1rem;
+}
+
+.ConfirmButton {
+  color: white;
+  background-color: rgb(255, 92, 119);
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+  margin-top: 1rem;
+}
+
+.ConfirmButton:hover {
+  background-color: rgb(255, 134, 154);
+}
+
+.ConfirmationForm {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0.5rem;
+  padding: 2rem 0;
+}
+
+.ConfirmationForm input {
+  padding: 0.5rem;
+}

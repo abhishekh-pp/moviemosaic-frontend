@@ -1,0 +1,42 @@
+.MovieDetailSection {
+  background-color: rgb(63, 62, 62);
+  padding: 1rem 0;
+}
+.Container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.MovieDetailSection .Container {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-gap: 2rem;
+}
+
+.ContainerRight {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+}
+
+.MovieImage {
+  width: 100%;
+  max-width: 261px;
+  border-radius: 8px;
+}
+
+.BookButton {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 84, 84);
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.AboutSection {
+  padding: 2rem 0;
+}
